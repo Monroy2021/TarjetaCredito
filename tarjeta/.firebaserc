@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tarjetacredito-79fbf"
+  },
+  "targets": {
+    "tarjetacredito-79fbf": {
+      "hosting": {
+        "tarjeta": [
+          "tarjetacredito-79fbf"
+        ]
+      }
+    }
+  }
+}

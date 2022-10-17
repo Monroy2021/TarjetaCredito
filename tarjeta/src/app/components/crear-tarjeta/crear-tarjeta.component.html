@@ -24,16 +24,16 @@
         <span class="input-group-text">
           <i
             class="fas fa-credit-card"
-            [class.green-icon]="this.form.get('nuemroTarjeta')?.valid"
+            [class.green-icon]="this.form.get('numeroTarjeta')?.valid"
             [class.red-icon]="
-              this.form.get('nuemroTarjeta')?.invalid &&
-              this.form.get('nuemroTarjeta')?.touched
+              this.form.get('numeroTarjeta')?.invalid &&
+              this.form.get('numeroTarjeta')?.touched
             "
           ></i>
         </span>
         <input
           type="text"
-          formControlName="nuemroTarjeta"
+          formControlName="numeroTarjeta"
           class="form-control"
           maxlength="16"
           placeholder="Numero Tarjeta"
